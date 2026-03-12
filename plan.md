@@ -25,7 +25,7 @@
 
 - [x] **Class 01** — Modern JavaScript Essentials (let/const, arrow functions, template literals, destructuring, spread/rest)
 - [x] **Class 02** — JavaScript Arrays & Objects Deep Dive (map, filter, reduce, object methods, optional chaining)
-- [ ] **Class 03** — Asynchronous JavaScript (Promises, async/await, fetch API) — Laravel এর Queue এর মতন!
+- [x] **Class 03** — Asynchronous JavaScript (Promises, async/await, fetch API) — Laravel এর Queue এর মতন!
 - [ ] **Class 04** — ES6 Modules, Classes & Prototypes (import/export, OOP in JS)
 - [ ] **Class 05** — JavaScript DOM Manipulation & Events (browser APIs, event delegation)
 

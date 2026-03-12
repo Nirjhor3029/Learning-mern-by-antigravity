@@ -72,7 +72,7 @@ console.log("All Skills:", fullStackSkills);
 // Rest example (Gathering parameters)
 const calculateTotal = (...prices) => {
     // reduce is an array method (we will learn this in Class 2)
-    return prices.reduce((total, current) => total + current, 0); 
+    return prices.reduce((total, current) => total + current, 0);
 };
 
 console.log(`Total Price: $${calculateTotal(10, 20, 5, 15)}`);

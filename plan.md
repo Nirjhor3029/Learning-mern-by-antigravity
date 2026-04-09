@@ -34,7 +34,7 @@
 ### 🟠 PHASE 2: React.js — Frontend (Beginner → Advanced)
 > *PHP Blade এর বদলে এখন React Component দিয়ে UI বানাবো*
 
-- [ ] **Class 06** — React Introduction & Setup (Vite + React, JSX, Components, Props)
+- [x] **Class 06** — React Introduction & Setup (Vite + React, JSX, Components, Props)
 - [ ] **Class 07** — React State & useState Hook (state management basics)
 - [ ] **Class 08** — React useEffect Hook (lifecycle, API calls, cleanup)
 - [ ] **Class 09** — React Forms & Controlled Components (form handling, validation)
@@ -101,7 +101,7 @@
 | Phase | Classes | Status |
 |-------|---------|--------|
 | Phase 1: Modern JavaScript | Class 01–05 | ✅ Completed |
-| Phase 2: React.js | Class 06–20 | ⏳ Not Started |
+| Phase 2: React.js | Class 06–20 | 🚀 In Progress |
 | Phase 3: Node.js & Express | Class 21–28 | ⏳ Not Started |
 | Phase 4: MongoDB & Mongoose | Class 29–33 | ⏳ Not Started |
 | Phase 5: Full MERN Projects | Class 34–38 | ⏳ Not Started |

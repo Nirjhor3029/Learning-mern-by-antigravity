@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 05: Modern DOM Manipulation</title>
+    <style>
+        body { font-family: system-ui, sans-serif; padding: 20px; max-width: 600px; margin: auto; }
+        .hidden { display: none; }
+        .card { border: 1px solid #ddd; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+        .btn { padding: 8px 16px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 4px; }
+        .btn-danger { background-color: #dc3545; }
+        input[type="text"] { padding: 8px; width: 80%; margin-right: 10px; border: 1px solid #ccc; border-radius: 4px; }
+        ul { padding-left: 0; list-style: none; }
+        li { display: flex; justify-content: space-between; padding: 10px; background: #f9f9f9; margin-bottom: 8px; border-radius: 4px; }
+        /* Style for tasks */
+        .completed { text-decoration: line-through; color: gray; }
+    </style>
+</head>
+<body>
+
+    <h1 id="app-title">MERN DOM API</h1>
+    
+    <!-- Section 1: Basic DOM Selection -->
+    <div class="card" id="welcome-section">
+        <h2>1. Updating Content</h2>
+        <p id="welcome-msg">Original Welcome Text</p>
+        <button class="btn" id="change-text-btn">Change Text</button>
+    </div>
+
+    <!-- Section 2: Form & Events -->
+    <div class="card">
+        <h2>2. Form Submissions (Event PreventDefault)</h2>
+        <form id="subscribe-form">
+            <input type="text" id="email-input" placeholder="Enter your email" required />
+            <button type="submit" class="btn">Subscribe</button>
+        </form>
+        <p id="subscribe-msg" class="hidden" style="color: green; margin-top: 10px;"></p>
+    </div>
+
+    <!-- Section 3: Event Delegation (Cart Example) -->
+    <div class="card">
+        <h2>3. Event Delegation (List Items)</h2>
+        <div style="display: flex; margin-bottom: 15px;">
+            <input type="text" id="item-input" placeholder="New cart item..." />
+            <button class="btn" id="add-item-btn">Add</button>
+        </div>
+        
+        <ul id="cart-list">
+            <li><span>🍎 Apple ($2)</span> <button class="btn btn-danger delete-btn">Delete</button></li>
+            <li><span>🍌 Banana ($1)</span> <button class="btn btn-danger delete-btn">Delete</button></li>
+        </ul>
+        <p><strong>Total Items in DOM:</strong> <span id="cart-count">2</span></p>
+    </div>
+    
+    <!-- YOUR TASKS SECTION -->
+    <div class="card" style="border-color: orange;">
+        <h2 style="color: orange;">4. Your Homework Tasks</h2>
+        
+        <p id="task1-text">Click the button below to change my color!</p>
+        <button class="btn" id="task1-btn">Change Color Task</button>
+
+        <ul id="task2-list" style="margin-top: 15px;">
+            <li>Task A <button class="btn check-btn">Complete</button></li>
+            <li>Task B <button class="btn check-btn">Complete</button></li>
+        </ul>
+    </div>
+
+    <!-- Loading our external scripts -->
+    <script src="domStructure.js"></script>
+    <script src="real-world-cart.js"></script>
+    <script src="your-tasks.js"></script>
+
+</body>
+</html>

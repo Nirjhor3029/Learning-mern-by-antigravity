@@ -26,8 +26,8 @@
 - [x] **Class 01** — Modern JavaScript Essentials (let/const, arrow functions, template literals, destructuring, spread/rest)
 - [x] **Class 02** — JavaScript Arrays & Objects Deep Dive (map, filter, reduce, object methods, optional chaining)
 - [x] **Class 03** — Asynchronous JavaScript (Promises, async/await, fetch API) — Laravel এর Queue এর মতন!
-- [ ] **Class 04** — ES6 Modules, Classes & Prototypes (import/export, OOP in JS)
-- [ ] **Class 05** — JavaScript DOM Manipulation & Events (browser APIs, event delegation)
+- [x] **Class 04** — ES6 Modules, Classes & Prototypes (import/export, OOP in JS)
+- [x] **Class 05** — JavaScript DOM Manipulation & Events (browser APIs, event delegation)
 
 ---
 
@@ -100,7 +100,7 @@
 
 | Phase | Classes | Status |
 |-------|---------|--------|
-| Phase 1: Modern JavaScript | Class 01–05 | 🚀 In Progress |
+| Phase 1: Modern JavaScript | Class 01–05 | ✅ Completed |
 | Phase 2: React.js | Class 06–20 | ⏳ Not Started |
 | Phase 3: Node.js & Express | Class 21–28 | ⏳ Not Started |
 | Phase 4: MongoDB & Mongoose | Class 29–33 | ⏳ Not Started |
